@@ -1,8 +1,8 @@
 defmodule HNSWLib.MixProject do
   use Mix.Project
 
-  @version "0.1.0"
-  @github_url "https://github.com/elixir-nx/hnswlib"
+  @version "0.1.1"
+  @github_url "https://github.com/amokan/hnswlib"
 
   def project do
     [
@@ -30,7 +30,7 @@ defmodule HNSWLib.MixProject do
     [
       # compilation
       {:cc_precompiler, "~> 0.1.0"},
-      {:elixir_make, "~> 0.7.0"},
+      {:elixir_make, "~> 0.7.7"},
 
       # runtime
       {:nx, "~> 0.5"},

@@ -1,9 +1,5 @@
 name: precompile
 
-# on:
-#   push:
-#     tags:
-#       - 'v*'
 on: workflow_dispatch
 
 concurrency:
